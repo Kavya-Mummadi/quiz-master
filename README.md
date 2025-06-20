@@ -7,7 +7,7 @@ This project demonstrates essential front-end concepts such as form handling, cl
 ---
 
 
-##  eatures
+##  Features
 
 ### 🧑‍💻 User Registration & Login
 - New users can register using:
