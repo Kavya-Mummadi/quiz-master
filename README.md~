@@ -1,36 +1,58 @@
-README.md
+# 🎯 BtechWalleh Quiz Portal
 
-Your Readme is Done 🎉🎉🎉
-Star This Project
-Fork on Github
+**BtechWalleh Quiz Portal** is a fully functional web-based quiz application built using **HTML**, **CSS**, and **JavaScript**. It is designed to test and enhance users' knowledge of web development fundamentals including HTML, CSS, and JavaScript.
 
-<p align="left">🎯 BtechWalleh Quiz Portal<br>BtechWalleh Quiz Portal is a fully functional web-based quiz application built using HTML, CSS, and JavaScript, aimed at testing and enhancing users' knowledge in web development fundamentals such as HTML, CSS, and JavaScript.<br><br>This project demonstrates key front-end development concepts, including form handling, client-side validation, localStorage for user persistence, dynamic DOM manipulation, and quiz evaluation—all presented within a visually appealing UI.<br><br>📌 Features<br>1. User Registration and Login<br>New users can register by providing a username, a valid Gmail address, and a password.<br><br>Only emails with @gmail.com domain are accepted (validated using regular expressions).<br><br>Registered user data is securely stored in the browser’s localStorage.<br><br>On successful registration, users are redirected to the login page.<br><br>2. Authentication<br>Registered users can log in with valid credentials.<br><br>Incorrect login attempts are gracefully handled with clear error messages.<br><br>On successful login, the quiz interface is displayed with a personalized welcome message.<br><br>3. Quiz Functionality<br>The quiz consists of 10 multiple-choice questions on HTML, CSS, and JavaScript.<br><br>Questions are shuffled randomly every time the quiz loads to ensure uniqueness.<br><br>Only one option can be selected per question.<br><br>Users can navigate through the quiz using a Next/Submit button.<br><br>At the end, the user's score is calculated and displayed.<br><br>The quiz interface dynamically renders each question, keeping the UI simple and user-friendly.<br><br>4. Responsive & Styled UI<br>Clean, responsive design using flexbox layouts.<br><br>The UI includes a gradient background, structured form inputs, and styled buttons for enhanced user experience.<br><br>A sticky navigation bar appears on the quiz page featuring the BtechWalleh logo and title.<br><br>The project is fully mobile-responsive.</p>
+This project demonstrates essential front-end concepts such as form handling, client-side validation, localStorage-based authentication, dynamic DOM manipulation, and quiz evaluation—all wrapped in a responsive and visually appealing user interface.
 
-###
-Github
-Donate
-Share
-Privacy Policy
-Copy File Content
-Level Up Your README
-Anyone can use templates — but when you know what you’re doing, it shows.
+---
 
-👉 Explore resources that will upgrade your skills — and your README. Start now.
+## 🚀 Live Demo
 
+[Click here to try the Quiz Portal](#) <!-- Replace # with actual link once deployed -->
 
-Clean Code
-A Handbook of Agile Software Craftsmanship by Uncle Bob.
+---
 
-Get the book
+## 📌 Features
 
-Clean Architecture
-Software Architecture Solutions from Uncle Bob.
+### 🧑‍💻 User Registration & Login
+- New users can register using:
+  - Username
+  - Valid Gmail address (`@gmail.com` enforced using Regex)
+  - Password
+- User credentials are stored securely in `localStorage`.
+- After successful registration, users are redirected to the login page.
+- Login requires valid credentials and includes error handling for incorrect logins.
+- A personalized welcome message appears upon login.
 
-Get the book
+### ❓ Quiz Functionality
+- 10 multiple-choice questions covering:
+  - HTML
+  - CSS
+  - JavaScript
+- Questions are **shuffled randomly** on each load.
+- Only one option can be selected per question.
+- Users can navigate using **Next** and **Submit** buttons.
+- The final score is calculated and shown at the end.
+- Quiz dynamically updates the DOM for each question.
 
-Explore More Books
-Browse the full list of curated titles to boost your coding skills.
+### 🎨 Responsive & Styled UI
+- Responsive design using **Flexbox**.
+- Features include:
+  - Gradient background
+  - Styled inputs and buttons
+  - Sticky navbar with **BtechWalleh** branding
+- Mobile-friendly layout for a seamless experience across devices.
 
-More books
-💡 This panel contains affiliate links. If you find something useful and make a purchase, I may earn a small commission ☕. Thanks for the support ❤
-Profile Readme Generator
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- LocalStorage (for user data persistence)
+
+---
+
+## 📁 Project Structure
+
