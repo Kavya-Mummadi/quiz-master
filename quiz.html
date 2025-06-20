@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BtechWalleh Quiz Portal</title>
+    <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+    <!-- Signup Page -->
+    <div class="container" id="signupPage">
+        <div class="content-container">
+            <div class="login-image-container">
+                <h1 class="login-heading">Register to</h1>
+                <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/gallery/656f708ebe179__btech_logo__420x200.png?d=375x600" class="Login-Logo-image" />
+            </div>
+            <form id="signupForm">
+                <input type="text" id="signupUsername" placeholder="Username" required />
+                <input type="email" id="signupEmail" placeholder="Email" required />
+                <input type="password" id="signupPassword" placeholder="Password" required />
+                <button type="submit">Register</button>
+                <p id="signupError" class="error-msg"></p>
+            </form>
+        </div>
+    </div>
+    <!-- Login Page -->
+    <div class="container" id="loginPage">
+        <div class="content-container">
+            <div class="login-image-container">
+                <h1 class="login-heading">Login </h1>
+                <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/gallery/656f708ebe179__btech_logo__420x200.png?d=375x600" class="Login-Logo-image" />
+            </div>
+            <form id="loginForm">
+                <input type="text" id="loginUsername" placeholder="Username" required />
+                <input type="email" id="loginEmail" placeholder="Email" required />
+                <input type="password" id="loginPassword" placeholder="Password" required />
+                <button type="submit">Login</button>
+                <p id="loginError" class="error-msg"></p>
+            </form>
+        </div>
+    </div>
+    <!-- Quiz Page -->
+    <div class="container" id="quizPage">
+        <!-- Navbar -->
+        <nav id="quizNavbar" class="quiz-nav-bar">
+            <div class="nav-container">
+                <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/gallery/656f708ebe179__btech_logo__420x200.png?d=375x600" alt="Logo" style="height: 40px; margin-right: 10px;" />
+                <h1 class="quiz-master-heading">QuizMaster</h1>
+            </div>
+        </nav>
+        <!-- Greeting -->
+        <h2 id="greeting" class="welcome-text">Welcome! Answer the questions below:</h2>
+        <!-- Display Quiz Questions-->
+        <div id="quizContainer" class="quiz-container "></div>
+        <div class="submit-button">
+            <button id="submitBtn">Submit</button>
+        </div>
+        <div id="result " class="result-styling "></div>
+    </div>
+    <script src="quiz.js "></script>
+</body>
+
+</html>

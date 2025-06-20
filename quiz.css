@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #FF8900, #E7C700);
+    background-size: cover;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #0000001A;
+    display: none;
+}
+
+.result-styling {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-container {
+    margin-bottom: 20px;
+}
+
+.login-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-Logo-image {
+    width: 30%;
+}
+
+.login-heading {
+    margin-right: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+#loginForm input[type="email"],
+#signupForm input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2d89ef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5bbf;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.quiz-nav-bar {
+    display: none;
+    width: 90%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-image: linear-gradient(to right, #FFC740, #DEAC21);
+    color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.quiz-master-heading {
+    margin: 0px;
+}
+
+.welcome-text {
+    margin: 20px 0;
+}
+
+.result-text {
+    text-align: center;
+}
