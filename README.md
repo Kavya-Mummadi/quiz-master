@@ -6,13 +6,8 @@ This project demonstrates essential front-end concepts such as form handling, cl
 
 ---
 
-## 🚀 Live Demo
 
-[Click here to try the Quiz Portal](#) <!-- Replace # with actual link once deployed -->
-
----
-
-## 📌 Features
+##  eatures
 
 ### 🧑‍💻 User Registration & Login
 - New users can register using:
