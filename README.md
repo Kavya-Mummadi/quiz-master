@@ -44,10 +44,9 @@ This project demonstrates essential front-end concepts such as form handling, cl
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript 
 - LocalStorage (for user data persistence)
 
 ---
 
-## 📁 Project Structure
 
